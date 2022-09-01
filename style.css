@@ -31,22 +31,29 @@ button {
     margin: 0.5em;
     border-radius: 50%;
     border: none;
-    height: 46px;
-    width: 46px;
+    height: 44px;
+    width: 44px;
     outline: none;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 buton:hover {
-    
+    background: #7c7c7c6b;
 }
 
 input.search-bar {
     border: none;
     outline: none;
-    padding: 0.5em 1em;
+    padding: 0.4em 1em;
     border-radius: 24px;
     background-color: #7c7c7c2b;
     color: black;
     font-family: inherit;
-    font-size: 120%;
+    font-size: 105%;
+    font-weight: bolder;
+}
+
+h1.temp {
+    margin: 0;
 }
