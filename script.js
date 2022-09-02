@@ -23,6 +23,8 @@ let weather = {
         document.querySelector(".temp").innerText = temp + "°F";
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".wind").innerText = "Wind Speed: " + speed + "mph";
+        document.querySelector(".weather").classList.remove("loading");
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/2880x1900/?" + name + "')"
     },
     search: function () {
         this.fetchWeather(document.querySelector(".search-bar").value);
@@ -33,6 +35,7 @@ document.querySelector(".search button")
 .addEventListener("click", function () {
     weather.search();
 });
+
 document.querySelector(".search-bar").addEventListener("keyup", function (event) {
     if (event.key == "Enter") {
         weather.search();
