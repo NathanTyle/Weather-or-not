@@ -12,7 +12,7 @@ background-image: url('https://source.unsplash.com/2880x1900/?landscape');
 }
 
 .card {
-    background: #eaeaead0;
+    background: #e0e0e0d0;
     color: black;
     padding: 2em;
     border-radius: 15px;
@@ -28,32 +28,29 @@ background-image: url('https://source.unsplash.com/2880x1900/?landscape');
 }
 
 button {
-    margin: 0.5em;
+    margin: 0.8em;
     border-radius: 50%;
     border: none;
-    height: 44px;
-    width: 44px;
+    height: 45px;
+    width: 45px;
     outline: none;
     cursor: pointer;
     transition: 0.2s;
-}
-
-buton:hover {
-    background: #7c7c7c6b;
 }
 
 input.search-bar {
     border: none;
     outline: none;
     padding: 0.4em 1em;
-    border-radius: 24px;
-    background-color: #7c7c7c2b;
+    border-radius: 17px;
+    background-color: #0000002b;
     color: black;
     font-family: inherit;
-    font-size: 105%;
+    font-size: 120%;
     font-weight: bolder;
 }
 
 h1.temp {
     margin: 0;
 }
+
